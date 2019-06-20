@@ -5,14 +5,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://kit.fontawesome.com/c1eca58843.js"></script>
+    <link rel="stylesheet" href="style/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 
 <body>
-    <button class="talk">Talk</button>
-    <h3 class="content"></h3>
+    <h1>Simple AI Bot</h1>
+    <h3>with Web Speech API</h3>
+    <div class="btn">
+        <button class="talk"><i class="fas fa-microphone"></i></button>
+    </div>
+    <div class="dialog">
+        <p>You said:</p>
+        <h3 class="content"></h3>
+    </div>
 
-    <script src="./app.js"></script>
+    <script src="app/app.js"></script>
 </body>
 
 </html>

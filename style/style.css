@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  background: url(../img/background.jpg) 50% 50% no-repeat;
+  background-size: cover;
+}
+
+body h1 {
+  width: 80%;
+  margin-bottom: 3rem;
+  font-size: 50px;
+}
+
+body h3 {
+  width: 50%;
+  margin-bottom: 2rem;
+}
+
+body .btn {
+  margin: 5rem;
+}
+
+body .btn button {
+  padding: 4.5rem;
+  border: none;
+  border-radius: 200px;
+  outline: none;
+  background: #F03A47;
+}
+
+body .btn button i {
+  font-size: 3.5rem;
+  color: white;
+}
+
+body .dialog {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .dialog p {
+  font-size: 30px;
+}
+
+body .dialog h3 {
+  width: 60%;
+  margin: 0;
+  font-size: 30px;
+}
+/*# sourceMappingURL=style.css.map */
